@@ -29,13 +29,24 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E38C85;
 }
 
 a:hover {
     color: #DBAD3B;
 }
 
+button {
+    padding: 8px 26px;
+    border: none;
+    border-radius: 10px;
+    
+    background-color: #3882f6;
+    
+}
+
+button a {
+    color: white;
+}
 /* NAVIGATION MENU */
 
 .logo {
@@ -46,11 +57,17 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 16px 0;
 }
 
 .nav-links {
     display: flex;
     gap: 18px;
+}
+
+.links a {
+    color: #E38C85;
 }
 
 /* HERO */
@@ -62,6 +79,27 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 26px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 48px;
+
+    margin-bottom: 20px;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-ptext {
+    margin-bottom: 30px;
+
+    font-weight: 300;
+    font-size: 1rem;
 }
 
 .hero-img  img{
