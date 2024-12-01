@@ -200,3 +200,17 @@ button a {
 
     color: white;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+}
