@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -29,10 +29,6 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    color: #DBAD3B;
 }
 
 button {
@@ -68,6 +64,10 @@ button a {
 
 .links a {
     color: #E38C85;
+}
+
+.links a:hover {
+    color: #DBAD3B;
 }
 
 /* HERO */
@@ -106,4 +106,30 @@ button a {
     max-width: 350px;
 
     border-radius: 20px;
+}
+
+/* FEATURES */
+
+.feat-container {
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    text-align: center;
+
+    border: 1px solid #E38C85;
+}
+
+.feat-title {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.feat-items-container {
+    display: flex;
+    gap: 18px;
 }
